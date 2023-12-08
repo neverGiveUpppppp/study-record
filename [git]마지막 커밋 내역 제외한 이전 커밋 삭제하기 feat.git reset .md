@@ -6,9 +6,9 @@ git reset --hard HEAD~n
 
 **`n` :** 지우고자 하는 이전 커밋의 수
 
-
-
-
+    
+    
+    
 ex)
 
 ```java
