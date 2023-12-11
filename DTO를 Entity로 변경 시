@@ -1,0 +1,15 @@
+DTO를 Entity로 변경 시, 필드값이 많을 경우 가독성 및 유지보수 bad
+
+기존 : 생성자패턴
+대안 : 빌더패턴, ModelMapper lib
+
+1.Builder패턴 : 가독성 향상
+2.ModelMapper : 객체를 통째로 전송가능 → 유지보수 better
+
+1)따로 @Configuration해서 ConfigClass에 @Bean ModelMapper 생성해서 is 빈등록해줌
+
+2)가져다 쓸 서비스에 전역변수 등록 및 생성자에 넣기
+
+참고자료
+https://sowon-dev.github.io/2021/09/06/210907DesignPattern-builder
+https://sowon-dev.github.io/2022/07/07/220708DouleColonOperator
