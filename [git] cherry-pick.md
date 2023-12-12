@@ -4,7 +4,7 @@
 ```bash
 git cherry-pick [커밋 해시]
 ```
-    
+<br/>    
     
   
 # cherry-pick 중 충돌 났을 때
@@ -23,7 +23,8 @@ git cherry-pick  [commit hash]  // main에서 local커밋 중 가져올 커밋id
     ```java
     git reset --hard [commit hash]
     ```
-  
+<br/>  
+
 상황
 
 로컬에서 작업한 것 중 하나를 메인에서 체리픽 해올려는 상황
@@ -41,6 +42,9 @@ git cherry-pick  [commit hash]  // main에서 local커밋 중 가져올 커밋id
 git checkout 브랜치명 -- 경로/파일
 
 ```
+<br/>
+
+ 
 
 # git cherry-pick -e
 
@@ -50,6 +54,7 @@ git checkout 브랜치명 -- 경로/파일
 git cherry-pick -e [커밋 해시]
 git cherry-pick --edit [커밋 해시]
 ```
+<br/>
 
 # git cherry-pick -n, --no-commit
 
@@ -59,4 +64,4 @@ git cherry-pick --edit [커밋 해시]
 git cherry-pick -n [커밋 해시]
 git cherry-pick --no-commit [커밋 해시]
 ```
-
+<br/>
