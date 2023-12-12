@@ -1,5 +1,5 @@
     
-# git cherry-pick
+## git cherry-pick
 
 ```bash
 git cherry-pick [커밋 해시]
@@ -7,7 +7,7 @@ git cherry-pick [커밋 해시]
 <br/>    
     
   
-# cherry-pick 중 충돌 났을 때
+## cherry-pick 중 충돌 났을 때
 
 main 브랜치에서 local 브랜치의 커밋을 끌어올려고 할 때, 충돌 났을 경우
 
@@ -46,7 +46,7 @@ git checkout 브랜치명 -- 경로/파일
 
  
 
-# git cherry-pick -e
+## git cherry-pick -e
 
 체리픽 해 온 커밋을 그대로 가져오는 게 아닌 커밋 메세지 수정
 
@@ -56,7 +56,7 @@ git cherry-pick --edit [커밋 해시]
 ```
 <br/>
 
-# git cherry-pick -n, --no-commit
+## git cherry-pick -n, --no-commit
 
 체리픽하면서 자동 커밋 금지
 
