@@ -4,9 +4,6 @@
 git cherry-pick [커밋 해시]
 ```
 
-- 참고 이미지
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/078aa021-a825-477a-be50-b62a96e7ecf1/def34597-533d-4f22-8469-c1a7237022fb/Untitled.png)
     
 
 # cherry-pick 중 충돌 났을 때
