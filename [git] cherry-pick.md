@@ -6,7 +6,7 @@ git cherry-pick [커밋 해시]
 ```
     
     
-
+  
 # cherry-pick 중 충돌 났을 때
 
 main 브랜치에서 local 브랜치의 커밋을 끌어올려고 할 때, 충돌 났을 경우
@@ -23,8 +23,7 @@ git cherry-pick  [commit hash]  // main에서 local커밋 중 가져올 커밋id
     ```java
     git reset --hard [commit hash]
     ```
-    
-    
+  
 상황
 
 로컬에서 작업한 것 중 하나를 메인에서 체리픽 해올려는 상황
@@ -35,8 +34,8 @@ git cherry-pick  [commit hash]  // main에서 local커밋 중 가져올 커밋id
 
 해결책 : git checkout 브랜치명 -- 경로/파일
 
-    
 
+  
 ```java
 // 특정 브랜치에서 특정 파일을 가져오는 방법
 git checkout 브랜치명 -- 경로/파일
