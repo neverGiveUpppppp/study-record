@@ -35,7 +35,7 @@ git cherry-pick  [commit hash]  // main에서 local커밋 중 가져올 커밋id
 해결책 : git checkout 브랜치명 -- 경로/파일
 
 
-  
+   
 ```java
 // 특정 브랜치에서 특정 파일을 가져오는 방법
 git checkout 브랜치명 -- 경로/파일
