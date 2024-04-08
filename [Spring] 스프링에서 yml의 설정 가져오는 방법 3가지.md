@@ -3,12 +3,13 @@
 ### 1.**@Value**
     
 개별 속성 값을 나눠 주입     
+타입 변환 자동 처리    
 SpEL(Spring Expression Language)을 지원    
     - 프로퍼티 파일에서 값 주입: **`@Value("${property.key}")`**    
     - 기본 값 설정: **`@Value("${property.key:default_value}")`**    
     - 수학 연산 수행: **`@Value("#{19 + 1}")`**    
     - 메소드 호출 결과 주입: **`@Value("#{someBean.someMethod()}")`**    
-타입 변환 자동 처리    
+
 Spring 3.0 ↑    
     
 - 설정 값이 간단하거나, 복잡한 계산이 필요한 경우 SpEL과 함께 사용
@@ -42,8 +43,8 @@ IDE 지원이 우수하여, 프로퍼티의 자동 완성, 탐색, 리팩토링 
 **`@SpringBootApplication`** 있는 클래스에 이를 추가    
 `@EnableConfigurationProperties`은 `@ConfigurationProperties`가 붙은 클래스를 스프링 컨텍스트에 빈으로 등록하기 위해 사용    
     ※ Spring Boot 2.2 버전 이상부터는 `@ConfigurationProperties`가 붙은 클래스를 자동으로 빈으로 등록    
-Spring Boot 1.2.0 ↑ (Spring Boot의 일부)
-Spring 지원X
+Spring Boot 1.2.0 ↑ (Spring Boot의 일부)    
+Spring 지원X    
     
 - 여러 관련 설정을 하나의 빈으로 묶어 관리해야 할 때 유용
 - 타입 안전성이 중요하거나, 설정 값에 대한 검증 로직을 추가해야 할 경우 유용
